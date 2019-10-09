@@ -17,6 +17,7 @@ int main()
 {
 	int choice,d,pos;
 	struct node *start,*k;
+	d=0;pos=0;
 	create(&start);
 	start->back=NULL;
 	k=start;
